@@ -1,23 +1,72 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<title> Menu responsive déroulant HTML / CSS</title>
+    <meta charset="utf-8"
+    ‹meta name="viewport" content="width=device-width, initial-scale=1">
+    <Link rel="stylesheet" href=index_style.css>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Ma première page web</title>
+	<title></title>
 </head>
-<body bgcolor="pink">
 
-        <h1>Page d'accueil</h1>
-        <p> Quelle est la définition de l'informatique ?
-Science du traitement automatique et rationnel de l'information considérée comme le support des connaissances et des communications. 2. Ensemble des applications de cette science, mettant en œuvre des matériels (ordinateurs) et des logiciels.</p>
+<body>
+    <nav>
+       <Label for="menu-mobile" class="menu-mobile">Menu</label>
+       <input type="checkbox" id="menu-mobile" role="button"> 
+       <ul>
+           <li class="menu-html-CSS"><a href="#">HTML & CSS</a>
+              <ul class=" submenu"s>
+                 <li><h2><a href="https://sachabayle.github.io/BTSDev/tp5_ex1.html"> TP 5 </a> </h2></li>
+                 <li><h2><a href="https://sachabayle.github.io/BTSDev/tp5_ex2.html"> TP 5.2 </a> </h2></li>
+                 <li><h2><a href="https://sachabayle.github.io/BTSDev/tp5_ex3.html"> TP 5.3  </a> </h2></li>
+                 <li><h2><a href="https://sachabayle.github.io/BTSDev/mission_qcm.html"> Mission 1 : QCM  </a> </h2></li>
+                 <li><h2><a href="https://sachabayle.github.io/BTSDev/tp_float.html"> TP 6 </a> </h2></li>
+                 <li><h2><a href="https://sachabayle.github.io/BTSDev/CV.html"> Mission 2 : CV </a> </h2></li>
+              </ul>
+            </li>
 
-        <h2>Première partie</h2>
-        <p>Quelle est la définition de l'informatique ?
-Science du traitement automatique et rationnel de l'information considérée comme le support des connaissances et des communications. 2. Ensemble des applications de cette science, mettant en œuvre des matériels (ordinateurs) et des logiciels.</p>
+            <li class="menu-js"><a href="#">Javascript </a>
+              <ul class="submenu">
+            	<li><h2><a href="https://sachabayle.github.io/BTSDev/facture.html"> Mission 1 : Facture </a> </h2></li>
+            	<li><h2><a href="https://sachabayle.github.io/BTSDev/tableau.html"> Mission 2 : Tableau </a> </h2></li>
+              </ul>
+            </li>
 
-<img src ="image.gif">
-<a href="page2.html"> Page Suivante </a>
-<a href="index.html"> Sommaire</a>
+
+            <li class="menu-bases-de-données"><a href="#"> Bases de données</a>
+               <ul class="submenu">
+               	
+               </ul>
+            </li>
+
+             <li class="menu-PHP"><a href="#">PHP</a>
+               <ul class="submenu">
+               	
+               </ul>
+            </li>
+
+            <li class="menu-Missions"><a href="#">Missions</a>
+               <ul class="submenu">
+                <li><h2><a href="https://sachabayle.github.io/BTSDev/mission_qcm.html"> Mission 1 : QCM  </a> </h2></li>
+                <li><h2><a href="https://sachabayle.github.io/BTSDev/CV.html"> Mission 2 : CV </a> </h2></li>
+                <li><h2><a href="https://sachabayle.github.io/BTSDev/facture.html"> Mission 3 : Facture </a> </h2></li>
+            	<li><h2><a href="https://sachabayle.github.io/BTSDev/tableau.html"> Mission 4 : Tableau </a> </h2></li>
+               </ul>
+            </li>
+
+            <li class="menu-Certifications "><a href="#">Certifications</a>
+               <ul class="submenu">
+               	<li><h2><a href="#"> Certifications </a> </h2></li>
+               </ul>
+            </li>
+
+       <li class="menu-contact"><a href="#">Contacts</a></li>
+</ul>
+</nav>
+
+<font color="red" face="verdana" size="3em">
+
 
 
 </body>
